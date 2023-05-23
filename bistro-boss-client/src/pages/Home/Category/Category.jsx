@@ -13,7 +13,7 @@ import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 
 const Category = () => {
   return (
-    <section>
+    <section className="mx-10 md:mx-0">
       <SectionTitle
         subHeading={"From 11.00am to 10.00pm"}
         heading={"Order Online"}
@@ -28,33 +28,39 @@ const Category = () => {
         className="mySwiper mb-24"
       >
         <SwiperSlide>
-          <img src={slide1} alt="" />
-          <h3 className="text-2xl uppercase text-center -mt-16  mb-8 text-white">
+          <img src={slide1} alt="Salads" />
+          <h3 className="text-md md:text-2xl uppercase text-center -mt-12  text-white">
             Salads
           </h3>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide2} alt="" />
-          <h3 className="text-2xl uppercase text-center -mt-16  mb-8 text-white">
+          <img src={slide2} alt="Pizzas" />
+          <h3 className="text-md md:text-2xl uppercase text-center -mt-12   text-white">
             Pizzas
           </h3>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide3} alt="" />
-          <h3 className="text-2xl uppercase text-center -mt-16  mb-8 text-white">
+          <img src={slide3} alt="Soups" />
+          <h3 className="text-md md:text-2xl uppercase text-center -mt-12  text-white">
             Soups
           </h3>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide4} alt="" />
-          <h3 className="text-2xl uppercase text-center -mt-16  mb-8 text-white">
+          <img src={slide4} alt="Desserts" />
+          <h3 className="text-md md:text-2xl uppercase text-center -mt-12  text-white">
             Desserts
           </h3>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slide5} alt="" />
-          <h3 className="text-2xl uppercase text-center -mt-16 mb-8 text-white">
+          <img src={slide5} alt="Salads" />
+          <h3 className="text-md md:text-2xl uppercase text-center -mt-12  text-white">
             Salads
+          </h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide4} alt="Desserts" />
+          <h3 className="text-md md:text-2xl uppercase text-center -mt-12  text-white">
+            Desserts
           </h3>
         </SwiperSlide>
       </Swiper>
