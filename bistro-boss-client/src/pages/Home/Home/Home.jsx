@@ -4,6 +4,7 @@ import Category from "../Category/Category";
 import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import Products from "../Products/Products";
+import Review from "../Review/Review";
 import Testimonial from "../Testimonial/Testimonial";
 
 
@@ -17,6 +18,7 @@ const Home = () => {
       <CallUs></CallUs>
       <Products></Products>
       <Featured></Featured>
+      <Review></Review>
     </div>
   );
 };
