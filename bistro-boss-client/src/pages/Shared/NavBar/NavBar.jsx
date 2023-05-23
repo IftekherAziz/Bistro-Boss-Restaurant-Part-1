@@ -4,7 +4,7 @@ const NavBar = () => {
   const navOptions = (
     <>
       <li>
-        <a>Item 555</a>
+        <Link to="/">Home</Link>
       </li>
       <li tabIndex={0}>
         <a className="justify-between">
